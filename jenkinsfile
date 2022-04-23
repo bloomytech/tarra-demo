@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git checkout'){
             steps {
-                git 'https://github.com/agboke/tarra-demo.git'
+                checkout scm
             }
         }
         stage('Terraform init'){
