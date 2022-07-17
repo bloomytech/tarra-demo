@@ -1,7 +1,7 @@
 provider "aws" {
   region                  = "us-east-1"
-  access_key = "AKIASZZUC2KRWCRGIWDG"
-  secret_key = "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"
+  access_key = "AKIASZZUC2KRQJXS44NB"
+  secret_key = "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"
 }
 # 1. Creat vpc 
 resource "aws_vpc" "qa-vpc" {
