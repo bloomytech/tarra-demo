@@ -1,6 +1,7 @@
 provider "aws" {
   region                  = "us-east-1"
-  profile                 = "terra-demo"
+  access_key = "AKIASZZUC2KRWCRGIWDG"
+  secret_key = "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"
 }
 # 1. Creat vpc 
 resource "aws_vpc" "qa-vpc" {
