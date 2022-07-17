@@ -1,7 +1,6 @@
 provider "aws" {
   region                  = "us-east-1"
-  access_key = ""
-  secret_key = ""
+  profile = "default"
 }
 # 1. Creat vpc 
 resource "aws_vpc" "qa-vpc" {
