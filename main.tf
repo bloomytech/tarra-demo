@@ -1,3 +1,7 @@
+provider "aws" {
+  region                  = "us-east-1"
+  profile                 = "terra-demo"
+}
 # 1. Creat vpc 
 resource "aws_vpc" "qa-vpc" {
   cidr_block = "10.0.0.0/16"
